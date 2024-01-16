@@ -2,7 +2,7 @@
 ## Introduction
 "Purrfect Climate," the ultimate smart humidifier crafted for your cat's health. Maintaining ideal humidity at 50% and temperature at 26°C, it ensures your pet's comfort through advanced sensors and a user-friendly display. Elegant, safe, and energy-efficient, "Purrfect Climate" is where innovation meets feline care.
 ![Purrfect](./purrfect.png)
-
+Upon activating the power button, the sensor gauges the current humidity level and begins to emit mist until the preferred humidity is achieved.
 
 ## Sensor
 - Sensors: Equipped with Adafruit BME280 (humidity and temperature sensor) to constantly monitor the environment.
