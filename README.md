@@ -4,6 +4,9 @@
 ![Purrfect](./assets/purrfect.png)
 Upon activating the power button, the sensor gauges the current humidity level and begins to emit mist until the preferred humidity is achieved.
 
+## Processor
+- Microcontroller: Adafruit QT Py SAMD21
+
 ## Sensor
 - Sensors: Equipped with Adafruit BME280 (humidity and temperature sensor) to constantly monitor the environment.
 - Wireless Communication: Utilizes Wi-Fi to transmit data to the display device.
