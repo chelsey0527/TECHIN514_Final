@@ -5,7 +5,7 @@
 Upon activating the power button, the sensor gauges the current humidity level and begins to emit mist until the preferred humidity is achieved.
 
 ## Processor
-- Microcontroller: Adafruit QT Py SAMD21
+- Microcontroller: Seeduino XIAO
 
 ## Sensor
 - Sensors: Equipped with Adafruit BME280 (humidity and temperature sensor) to constantly monitor the environment.
@@ -13,6 +13,7 @@ Upon activating the power button, the sensor gauges the current humidity level a
 - Power Solution: Rechargeable battery-powered with a low-power design for longevity, and an option for a wall plug for continuous operation.
 - Enclosure: Designed to be pet-safe with no small parts or sharp edges, and resistant to tipping over.
 - Custom PCB: To manage sensor data and control humidifier mechanisms efficiently.
+![How device work](./assets/how_device_work.jpg)
 
 ## Display
 - Gauge: A stepper-motor-driven gauge that indicates the current humidity level with a simple, cat-friendly iconography showing if the humidity is at an optimal level.
@@ -21,6 +22,7 @@ Upon activating the power button, the sensor gauges the current humidity level a
 - Custom Enclosure: Ergonomically designed to fit into home decor, safe and appealing to a cat's curiosity without being a toy.
 - Custom PCB: Integrates the stepper motor, LED, and button controls, also houses the DSP/ML algorithms.
 Battery: A large, rechargeable battery ensuring the display unit can be placed anywhere without the need for constant charging.
+![How device work](./assets/how_device_work.jpg)
 
 ## How devices communicate
 ![How device work](./assets/how_device_work.jpg)
