@@ -21,6 +21,4 @@ Upon activating the power button, the sensor gauges the current humidity level a
 ![display](./assets/display.png)
 
 ## How devices communicate
-- Wireless Communication: Utilizes Wi-Fi to transmit data to the display device.
-- Power Solution: Rechargeable battery-powered with a low-power design for longevity, and an option for a wall plug for continuous operation.
-![How device work](./assets/how_device_work.jpg)
+![How device work](./assets/architecture.png)
