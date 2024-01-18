@@ -19,10 +19,8 @@ Upon activating the power button, the sensor gauges the current humidity level a
 - Gauge: A stepper-motor-driven gauge that indicates the current humidity level with a simple, cat-friendly iconography showing if the humidity is at an optimal level.
 - LED Indicator: An LED that changes color based on the temperature reading (blue for cool, red for warm, green for optimal).
 - Button: A single, large, capacitive button that is touch-sensitive for easy operation, allowing the owner to switch the humidifier on/off and adjust settings.
-- Custom Enclosure: Ergonomically designed to fit into home decor, safe and appealing to a cat's curiosity without being a toy.
-- Custom PCB: Integrates the stepper motor, LED, and button controls, also houses the DSP/ML algorithms.
-Battery: A large, rechargeable battery ensuring the display unit can be placed anywhere without the need for constant charging.
-![How device work](./assets/how_device_work.jpg)
+- OLED: SSD1306 OLED
+![display](./assets/display.png)
 
 ## How devices communicate
 ![How device work](./assets/how_device_work.jpg)
