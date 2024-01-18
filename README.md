@@ -5,15 +5,12 @@ Upon activating the power button, the sensor gauges the current humidity level a
 ![Purrfect](./assets/purrfect.png)
 
 ## Processor
-- Microcontroller: Seeduino XIAO
+- Microcontroller: Seeduino XIAO ESP32S3
+![xiao](./assets/xiao.png)
 
 ## Sensor
 - Sensors: Equipped with Adafruit BME280 (humidity and temperature sensor) to constantly monitor the environment.
-- Wireless Communication: Utilizes Wi-Fi to transmit data to the display device.
-- Power Solution: Rechargeable battery-powered with a low-power design for longevity, and an option for a wall plug for continuous operation.
-- Enclosure: Designed to be pet-safe with no small parts or sharp edges, and resistant to tipping over.
-- Custom PCB: To manage sensor data and control humidifier mechanisms efficiently.
-![How device work](./assets/how_device_work.jpg)
+![sensor](./assets/sensor.png)
 
 ## Display
 - Gauge: A stepper-motor-driven gauge that indicates the current humidity level with a simple, cat-friendly iconography showing if the humidity is at an optimal level.
@@ -23,4 +20,6 @@ Upon activating the power button, the sensor gauges the current humidity level a
 ![display](./assets/display.png)
 
 ## How devices communicate
+- Wireless Communication: Utilizes Wi-Fi to transmit data to the display device.
+- Power Solution: Rechargeable battery-powered with a low-power design for longevity, and an option for a wall plug for continuous operation.
 ![How device work](./assets/how_device_work.jpg)
