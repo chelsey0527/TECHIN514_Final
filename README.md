@@ -1,24 +1,21 @@
-# Purrfect Climate - the Smart Humidifier for Cats
-## Introduction
-"Purrfect Climate," the ultimate smart humidifier crafted for your cat's health. Maintaining ideal humidity at 50% and temperature at 26°C, it ensures your pet's comfort through advanced sensors and a user-friendly display. Elegant, safe, and energy-efficient, "Purrfect Climate" is where innovation meets feline care.
-Upon activating the power button, the sensor gauges the current humidity level and begins to emit mist until the preferred humidity is achieved.
-<br>
-![Purrfect](./assets/purrfect.png)
-
-## Processor
-- Microcontroller: Seeduino XIAO ESP32S3
-![xiao](./assets/xiao.png)
+# Purrfect: Cat motion and humidity sensor
+This system is designed to maintain an optimal environment for your cat, with a focus on keeping humidity and temperature at ideal levels. The default settings are 50% humidity and 26°C. However, when the cat is active, the system adjusts to 45% humidity and 24°C. Additionally, this device offers a pet location tracking feature.
+![purrfect](./assets/purrfect.jpg)
 
 ## Sensor
-- Sensors: Equipped with Adafruit BME280 (humidity and temperature sensor) to constantly monitor the environment.
+This wearable module includes a battery, a humidity sensor, a motion sensor, and an MPU (Micro Processing Unit). Key components include:
+- Seeduino XIAO ESP32S3
+- Adafruit BME280: humidity and temperature sensor
+- Adafruit MPU6050: motion sensor
 ![sensor](./assets/sensor.png)
 
 ## Display
-- Gauge: A stepper-motor-driven gauge that indicates the current humidity level with a simple, cat-friendly iconography showing if the humidity is at an optimal level.
-- LED Indicator: An LED that changes color based on the temperature reading (blue for cool, red for warm, green for optimal).
-- Button: A single, large, capacitive button that is touch-sensitive for easy operation, allowing the owner to switch the humidifier on/off and adjust settings.
-- OLED: SSD1306 OLED
+The display unit features a battery, a processor, an OLED screen, a gauge, and a button, all integrated onto a custom PCB. This interface allows pet owners to monitor their cat's conditions and adjust the environment accordingly. It's a user-friendly system designed to keep your pet comfortable and healthy.
+- stepper-motor-driven gauge: indicates the current humidity level
+- LED: light when the device is on
+- Button: to open device
+- SSD1306 OLED: display readings
 ![display](./assets/display.png)
 
-## How devices communicate
-![How device work](./assets/architecture.png)
+## Architecture
+![architecture](./assets/architecture.png)
