@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../main"
+		},
+		{
+			"name": "main_code",
+			"path": ".."
+		},
+		{
+			"name": "Lab4",
+			"path": "../../../../../Documents/PlatformIO/Projects/Lab4"
+		},
+		{
+			"name": "Lab5",
+			"path": "../../../../../Documents/PlatformIO/Projects/Lab5"
+		}
+	],
+	"settings": {}
+}
