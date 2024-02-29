@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "esp32s3-server",
+			"path": ".."
+		},
+		{
+			"name": "esp32s3-server-data-collect",
+			"path": "../../esp32s3-server-data-collect"
+		}
+	],
+	"settings": {}
+}
