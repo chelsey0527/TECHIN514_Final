@@ -19,6 +19,16 @@ CircularBuffer<float, 20> xReadings;
 CircularBuffer<float, 20> yReadings;
 CircularBuffer<float, 20> zReadings;
 
+// WiFi and Firebase configuration details
+const char *ssid = "UW MPSK";
+const char *password = "K!(t7n4$#j";
+#define DATABASE_URL "https://esp32-firebase-demo-4050d-default-rtdb.firebaseio.com/"
+#define API_KEY "AIzaSyACPXeTJMeQ6rpxPSZTm4ZbSYWh96iHra4"
+#define STAGE_INTERVAL 12000 // Time in milliseconds for each operational stage
+#define MAX_WIFI_RETRIES 5   // Maximum attempts to connect to WiFi
+
+int uploadInterval = 1000; // Interval for uploading data to Firebase in milliseconds
+
 /* Private variables ------------------------------------------------------- */
 static const bool debug_nn = false; // Set this to true to see e.g. features generated from the raw signal
 
